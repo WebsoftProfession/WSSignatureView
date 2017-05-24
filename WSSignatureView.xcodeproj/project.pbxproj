@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A62705F1ED14AC600E91DE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A62705E1ED14AC600E91DE0 /* main.m */; };
+		4A6270621ED14AC700E91DE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6270611ED14AC700E91DE0 /* AppDelegate.m */; };
+		4A6270651ED14AC700E91DE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6270641ED14AC700E91DE0 /* ViewController.m */; };
+		4A6270681ED14AC700E91DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6270661ED14AC700E91DE0 /* Main.storyboard */; };
+		4A62706A1ED14AC700E91DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A6270691ED14AC700E91DE0 /* Assets.xcassets */; };
+		4A62706D1ED14AC700E91DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A62706B1ED14AC700E91DE0 /* LaunchScreen.storyboard */; };
+		4A6270781ED14AC700E91DE0 /* WSSignatureViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6270771ED14AC700E91DE0 /* WSSignatureViewTests.m */; };
+		4A6270831ED14AC700E91DE0 /* WSSignatureViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6270821ED14AC700E91DE0 /* WSSignatureViewUITests.m */; };
+		4A6270931ED14B1300E91DE0 /* WSSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6270921ED14B1300E91DE0 /* WSSignature.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A6270741ED14AC700E91DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A6270521ED14AC600E91DE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A6270591ED14AC600E91DE0;
+			remoteInfo = WSSignatureView;
+		};
+		4A62707F1ED14AC700E91DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A6270521ED14AC600E91DE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A6270591ED14AC600E91DE0;
+			remoteInfo = WSSignatureView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A62705A1ED14AC600E91DE0 /* WSSignatureView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSSignatureView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A62705E1ED14AC600E91DE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A6270601ED14AC600E91DE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A6270611ED14AC700E91DE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A6270631ED14AC700E91DE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A6270641ED14AC700E91DE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A6270671ED14AC700E91DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A6270691ED14AC700E91DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A62706C1ED14AC700E91DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A62706E1ED14AC700E91DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6270731ED14AC700E91DE0 /* WSSignatureViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSSignatureViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6270771ED14AC700E91DE0 /* WSSignatureViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSSignatureViewTests.m; sourceTree = "<group>"; };
+		4A6270791ED14AC700E91DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A62707E1ED14AC700E91DE0 /* WSSignatureViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSSignatureViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6270821ED14AC700E91DE0 /* WSSignatureViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSSignatureViewUITests.m; sourceTree = "<group>"; };
+		4A6270841ED14AC700E91DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6270911ED14B1300E91DE0 /* WSSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSSignature.h; sourceTree = "<group>"; };
+		4A6270921ED14B1300E91DE0 /* WSSignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSSignature.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A6270571ED14AC600E91DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6270701ED14AC700E91DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A62707B1ED14AC700E91DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A6270511ED14AC600E91DE0 = {
+			isa = PBXGroup;
+			children = (
+				4A62705C1ED14AC600E91DE0 /* WSSignatureView */,
+				4A6270761ED14AC700E91DE0 /* WSSignatureViewTests */,
+				4A6270811ED14AC700E91DE0 /* WSSignatureViewUITests */,
+				4A62705B1ED14AC600E91DE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A62705B1ED14AC600E91DE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A62705A1ED14AC600E91DE0 /* WSSignatureView.app */,
+				4A6270731ED14AC700E91DE0 /* WSSignatureViewTests.xctest */,
+				4A62707E1ED14AC700E91DE0 /* WSSignatureViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A62705C1ED14AC600E91DE0 /* WSSignatureView */ = {
+			isa = PBXGroup;
+			children = (
+				4A6270901ED14AFE00E91DE0 /* WSSignature */,
+				4A6270601ED14AC600E91DE0 /* AppDelegate.h */,
+				4A6270611ED14AC700E91DE0 /* AppDelegate.m */,
+				4A6270631ED14AC700E91DE0 /* ViewController.h */,
+				4A6270641ED14AC700E91DE0 /* ViewController.m */,
+				4A6270661ED14AC700E91DE0 /* Main.storyboard */,
+				4A6270691ED14AC700E91DE0 /* Assets.xcassets */,
+				4A62706B1ED14AC700E91DE0 /* LaunchScreen.storyboard */,
+				4A62706E1ED14AC700E91DE0 /* Info.plist */,
+				4A62705D1ED14AC600E91DE0 /* Supporting Files */,
+			);
+			path = WSSignatureView;
+			sourceTree = "<group>";
+		};
+		4A62705D1ED14AC600E91DE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A62705E1ED14AC600E91DE0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A6270761ED14AC700E91DE0 /* WSSignatureViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A6270771ED14AC700E91DE0 /* WSSignatureViewTests.m */,
+				4A6270791ED14AC700E91DE0 /* Info.plist */,
+			);
+			path = WSSignatureViewTests;
+			sourceTree = "<group>";
+		};
+		4A6270811ED14AC700E91DE0 /* WSSignatureViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A6270821ED14AC700E91DE0 /* WSSignatureViewUITests.m */,
+				4A6270841ED14AC700E91DE0 /* Info.plist */,
+			);
+			path = WSSignatureViewUITests;
+			sourceTree = "<group>";
+		};
+		4A6270901ED14AFE00E91DE0 /* WSSignature */ = {
+			isa = PBXGroup;
+			children = (
+				4A6270911ED14B1300E91DE0 /* WSSignature.h */,
+				4A6270921ED14B1300E91DE0 /* WSSignature.m */,
+			);
+			name = WSSignature;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A6270591ED14AC600E91DE0 /* WSSignatureView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A6270871ED14AC700E91DE0 /* Build configuration list for PBXNativeTarget "WSSignatureView" */;
+			buildPhases = (
+				4A6270561ED14AC600E91DE0 /* Sources */,
+				4A6270571ED14AC600E91DE0 /* Frameworks */,
+				4A6270581ED14AC600E91DE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSSignatureView;
+			productName = WSSignatureView;
+			productReference = 4A62705A1ED14AC600E91DE0 /* WSSignatureView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A6270721ED14AC700E91DE0 /* WSSignatureViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A62708A1ED14AC700E91DE0 /* Build configuration list for PBXNativeTarget "WSSignatureViewTests" */;
+			buildPhases = (
+				4A62706F1ED14AC700E91DE0 /* Sources */,
+				4A6270701ED14AC700E91DE0 /* Frameworks */,
+				4A6270711ED14AC700E91DE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A6270751ED14AC700E91DE0 /* PBXTargetDependency */,
+			);
+			name = WSSignatureViewTests;
+			productName = WSSignatureViewTests;
+			productReference = 4A6270731ED14AC700E91DE0 /* WSSignatureViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A62707D1ED14AC700E91DE0 /* WSSignatureViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A62708D1ED14AC700E91DE0 /* Build configuration list for PBXNativeTarget "WSSignatureViewUITests" */;
+			buildPhases = (
+				4A62707A1ED14AC700E91DE0 /* Sources */,
+				4A62707B1ED14AC700E91DE0 /* Frameworks */,
+				4A62707C1ED14AC700E91DE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A6270801ED14AC700E91DE0 /* PBXTargetDependency */,
+			);
+			name = WSSignatureViewUITests;
+			productName = WSSignatureViewUITests;
+			productReference = 4A62707E1ED14AC700E91DE0 /* WSSignatureViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A6270521ED14AC600E91DE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WebsoftProfession;
+				TargetAttributes = {
+					4A6270591ED14AC600E91DE0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4A6270721ED14AC700E91DE0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4A6270591ED14AC600E91DE0;
+					};
+					4A62707D1ED14AC700E91DE0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4A6270591ED14AC600E91DE0;
+					};
+				};
+			};
+			buildConfigurationList = 4A6270551ED14AC600E91DE0 /* Build configuration list for PBXProject "WSSignatureView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A6270511ED14AC600E91DE0;
+			productRefGroup = 4A62705B1ED14AC600E91DE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A6270591ED14AC600E91DE0 /* WSSignatureView */,
+				4A6270721ED14AC700E91DE0 /* WSSignatureViewTests */,
+				4A62707D1ED14AC700E91DE0 /* WSSignatureViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A6270581ED14AC600E91DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A62706D1ED14AC700E91DE0 /* LaunchScreen.storyboard in Resources */,
+				4A62706A1ED14AC700E91DE0 /* Assets.xcassets in Resources */,
+				4A6270681ED14AC700E91DE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6270711ED14AC700E91DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A62707C1ED14AC700E91DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A6270561ED14AC600E91DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6270931ED14B1300E91DE0 /* WSSignature.m in Sources */,
+				4A6270651ED14AC700E91DE0 /* ViewController.m in Sources */,
+				4A6270621ED14AC700E91DE0 /* AppDelegate.m in Sources */,
+				4A62705F1ED14AC600E91DE0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A62706F1ED14AC700E91DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6270781ED14AC700E91DE0 /* WSSignatureViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A62707A1ED14AC700E91DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6270831ED14AC700E91DE0 /* WSSignatureViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A6270751ED14AC700E91DE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A6270591ED14AC600E91DE0 /* WSSignatureView */;
+			targetProxy = 4A6270741ED14AC700E91DE0 /* PBXContainerItemProxy */;
+		};
+		4A6270801ED14AC700E91DE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A6270591ED14AC600E91DE0 /* WSSignatureView */;
+			targetProxy = 4A62707F1ED14AC700E91DE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A6270661ED14AC700E91DE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A6270671ED14AC700E91DE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A62706B1ED14AC700E91DE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A62706C1ED14AC700E91DE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A6270851ED14AC700E91DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A6270861ED14AC700E91DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A6270881ED14AC700E91DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSSignatureView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.WSPhotoEditor.WSSignatureView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A6270891ED14AC700E91DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSSignatureView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.WSPhotoEditor.WSSignatureView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A62708B1ED14AC700E91DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WSSignatureViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.WSPhotoEditor.WSSignatureViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSSignatureView.app/WSSignatureView";
+			};
+			name = Debug;
+		};
+		4A62708C1ED14AC700E91DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WSSignatureViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.WSPhotoEditor.WSSignatureViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSSignatureView.app/WSSignatureView";
+			};
+			name = Release;
+		};
+		4A62708E1ED14AC700E91DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WSSignatureViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.WSPhotoEditor.WSSignatureViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WSSignatureView;
+			};
+			name = Debug;
+		};
+		4A62708F1ED14AC700E91DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WSSignatureViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ws.WSPhotoEditor.WSSignatureViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WSSignatureView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A6270551ED14AC600E91DE0 /* Build configuration list for PBXProject "WSSignatureView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6270851ED14AC700E91DE0 /* Debug */,
+				4A6270861ED14AC700E91DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A6270871ED14AC700E91DE0 /* Build configuration list for PBXNativeTarget "WSSignatureView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6270881ED14AC700E91DE0 /* Debug */,
+				4A6270891ED14AC700E91DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A62708A1ED14AC700E91DE0 /* Build configuration list for PBXNativeTarget "WSSignatureViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A62708B1ED14AC700E91DE0 /* Debug */,
+				4A62708C1ED14AC700E91DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A62708D1ED14AC700E91DE0 /* Build configuration list for PBXNativeTarget "WSSignatureViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A62708E1ED14AC700E91DE0 /* Debug */,
+				4A62708F1ED14AC700E91DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A6270521ED14AC600E91DE0 /* Project object */;
+}

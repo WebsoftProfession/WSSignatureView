@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u8T-og-o9H" customClass="WSSignature">
+                                <rect key="frame" x="49" y="304" width="317" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="317" id="1JN-NG-N6M"/>
+                                    <constraint firstAttribute="height" constant="128" id="Epi-rs-hQB"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAg-xw-K90">
+                                <rect key="frame" x="140" y="462" width="133" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="foJ-0s-ldw"/>
+                                    <constraint firstAttribute="width" constant="133" id="xvj-So-FlF"/>
+                                </constraints>
+                                <state key="normal" title="Get Signature"/>
+                                <connections>
+                                    <action selector="captureSignature:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ArR-LU-WC5"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="34p-S0-V5k">
+                                <rect key="frame" x="87" y="511" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Wnh-ge-iXU"/>
+                                    <constraint firstAttribute="width" constant="240" id="yys-Ap-Lib"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xAg-xw-K90" firstAttribute="top" secondItem="u8T-og-o9H" secondAttribute="bottom" constant="30" id="31m-P9-2Wg"/>
+                            <constraint firstItem="u8T-og-o9H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9aL-1l-EvS"/>
+                            <constraint firstItem="xAg-xw-K90" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fr9-ZN-P4h"/>
+                            <constraint firstItem="34p-S0-V5k" firstAttribute="top" secondItem="xAg-xw-K90" secondAttribute="bottom" constant="19" id="gCl-3N-9yO"/>
+                            <constraint firstItem="u8T-og-o9H" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="npf-Ve-Eix"/>
+                            <constraint firstItem="34p-S0-V5k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sGg-nr-SbB"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="imgSignature" destination="34p-S0-V5k" id="0Ku-vj-BtL"/>
+                        <outlet property="signature" destination="u8T-og-o9H" id="9jK-Ka-d9N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="349"/>
+        </scene>
+    </scenes>
+</document>
